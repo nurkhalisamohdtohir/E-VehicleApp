@@ -40,3 +40,7 @@ E-Vehicle is designed to streamline various processes within the company, enhanc
 - **Trip Management:**
   - View trip details like trip number, date, destination.
   - Update vehicle mileage before and after each trip. The total of kilometers traveled will be auto-calculated by the system.
+
+## User Interface
+
+[User Interface Vehicle Booking and Maintenance Organizer (PDF)](User%20Interface%20Vehicle%20Booking%20and%20Maintenance%20Organizer.pdf)
