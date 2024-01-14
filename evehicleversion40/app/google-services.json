@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "593833250973",
+    "project_id": "evehiclev4",
+    "storage_bucket": "evehiclev4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593833250973:android:1839cb66aa47b2dd964474",
+        "android_client_info": {
+          "package_name": "my.edu.utem.ftmk.evehicleversion40"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593833250973-7pq7r1ss14lma2irc5go0qmdv590k2or.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeJs6mlsG2ZJ-0O6dGzx0nezoirMzeYjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593833250973-7pq7r1ss14lma2irc5go0qmdv590k2or.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

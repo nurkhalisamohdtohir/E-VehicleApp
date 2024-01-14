@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/drawable/buttonrounded.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/drawable/ic_baseline_event_note_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/drawable/ic_baseline_list_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/drawable/roundbutton.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/activity_calendar_trip.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/activity_history.xml" value="0.165625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/activity_historylist.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/activity_login.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/activity_logout.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/activity_main.xml" value="0.165625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/activity_menu.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/activity_mileage.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/activity_splashscreen.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/activity_trip.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/activity_trip_list.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/activity_triplist.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/activity_upcoming_trip.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/custom_list_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/item.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/itemtrip.xml" value="0.22" />
+        <entry key="..\:/Users/lisa/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/activity_historylist.xml" value="0.22" />
+        <entry key="..\:/Users/lisa/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/activity_menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/lisa/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/activity_mileage.xml" value="0.1796875" />
+        <entry key="..\:/Users/lisa/AndroidStudioProjects/evehicleversion40/app/src/main/res/layout/activity_trip_list.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

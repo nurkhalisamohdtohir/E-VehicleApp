@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgclr2"
+    tools:context=".MileageActivity">
+
+    <TextView
+        android:id="@+id/mileagelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="63dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Mileage"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/historylabel"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Please insert your vehicle start and end mileage below"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tvTripNoMileage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="385dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="00019 "
+        android:textColor="#6f6f6f"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textTripNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="380dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Trip No: "
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvDateMileage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="417dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="5 Jan 2022 "
+        android:textColor="#6f6f6f"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="413dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Date : "
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvDestinationMileage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="458dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="MY "
+        android:textColor="#6f6f6f"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textdestinationmileage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="453dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Destination: "
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextstartmileage"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/editTextEndmileage"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="439dp"
+        android:ems="10"
+        android:hint="Start Mileage"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextEndmileage"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="343dp"
+        android:ems="10"
+        android:hint="End Mileage"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="150dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/buttonrounded"
+        android:fontFamily="@font/roboto_medium"
+        android:radius="30dp"
+        android:text="SAVE"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:onClick="UpdateDetailsMileage"/>
+
+
+</RelativeLayout>
