@@ -1,0 +1,1055 @@
+body {
+ /* background-color: #d8dde6;*/
+  /*background-image: linear-gradient(rgb(72, 72, 173), rgb(163, 175, 228));*/
+   background-attachment: fixed;
+   width: calc(100vw - 34px);
+   background-image: url("image/it.jpg"); /* The image used */
+   background-position: center; /* Center the image */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+h1 {
+	font-family: verdana;
+/*	font-size: 35pt;
+*/}
+
+h2 {
+	font-family: verdana;
+	font-size: 25pt;
+	color: white;
+}
+
+nav a{
+	color: #333333;
+	text-align: center;
+	font-weight: bold;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+.evehicle {
+  object-fit: contain;
+  padding: 5px;
+  vertical-align: middle;
+
+}
+
+.menu {
+  padding-top: 10px;
+  width: auto;
+}
+
+content  {
+	font-size: 16pt;
+	font: verdana;
+	color: black;
+	text-align: center;
+  background-color: white;
+  display: block;
+  width: 85%;
+  border-radius: 10px;
+
+}
+
+content ol {
+	font-size: 15pt;
+}
+content a:hover {
+	color: blue;
+}
+content a:visited {
+	color: blue;
+}
+
+.navbar {
+  overflow: hidden;
+ /* background-color: #343A40; */
+  font-family: verdana;
+  font-size: 15px; 
+  padding: 0.5rem 1rem;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.navbar a {
+  float: left;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: auto;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.user {
+  float: right;
+  overflow: hidden;
+  font-family: verdana;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.user .hovertext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.user:hover .hovertext {
+  visibility: visible;
+}
+
+.dropdown .dropbtn {
+  font-size: 15px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;    
+  background-color: inherit;
+  font-family: verdana;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+ /* background-color:  #212529;*/
+  text-decoration: underline;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.title {
+  margin-top: 10px;
+  padding-top:13px;
+  padding-bottom: 3px;
+  color: black;
+}
+
+.title h2{
+  color: #343A40;
+  font-size: 20pt;
+}
+
+.row a:visited{
+  color: white;
+}
+
+.row a:hover{
+  color: white;
+}
+
+.bluecard {
+  display: block;
+  width: 350px;
+  background-color: #1A659E;
+  border-width: 2px;
+  border-color: #1A659E;
+  border-style: solid;
+  border-radius: 8px; 
+  color: white;
+  padding-top: 0px;
+}
+
+.bluecard-text
+{
+  float: right;
+  position: relative;
+  height: 90px;
+  width: 60%;
+  font-size: 16px;
+  font-family: verdana;
+  margin-right: 3px;
+}
+
+.bluecard-icon {
+  float: left;
+  height: 90px;
+  width: 30%;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.bluecard-number {
+  float: left;
+  height: 90px;
+  margin-left: 6px;
+  padding: 0px 10px;
+  font-size: 45px;
+}
+
+.bluecard-up {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: -23px;
+  height: 100px;
+  background-color: #1A659E;
+  text-align: right;
+}
+
+.bluecard-down {
+  margin-top: 9px;
+  padding-left: 10px;
+  height: 30px;
+  background-color: white;
+  color:#1A659E;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-family: verdana;
+  font-size: 15px;
+}
+
+.bluecard-text-down
+{
+  float: left;
+  font-family: verdana;
+  font-size: 15px;
+  display: inline;
+  width: 60%;
+  text-align: left;
+  margin: 0;
+}
+
+.bluecard-icon-down {
+  position: relative;
+  text-align: right;
+  float: right;
+  padding-right: 9px;
+ display: inline;
+ width: 30%;
+}
+
+.purplecard {
+  display: block;
+  width: 350px;
+  background-color: #723cba;
+  border-width: 2px;
+  border-color: #723cba;
+  border-style: solid;
+  border-radius: 8px; 
+  color: white;
+  padding-top: 0px;
+}
+
+.purplecard-text
+{
+  float: right;
+  position: relative;
+  height: 90px;
+  width: 60%;
+  font-size: 16px;
+  font-family: verdana;
+  margin-right: 3px;
+}
+
+.purplecard-icon {
+  float: left;
+  height: 90px;
+  width: 30%;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.purplecard-number {
+  float: left;
+  height: 90px;
+  margin-left: 6px;
+  padding: 0px 10px;
+  font-size: 45px;
+}
+
+.purplecard-up {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: -23px;
+  height: 100px;
+  background-color: #723cba;
+  text-align: right;
+}
+
+.purplecard-down {
+  margin-top: 9px;
+  padding-left: 10px;
+  height: 30px;
+  background-color: white;
+  color:#723cba;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-family: verdana;
+  font-size: 15px;
+}
+
+.purplecard-text-down
+{
+  float: left;
+  font-family: verdana;
+  font-size: 15px;
+  display: inline;
+  width: 60%;
+  text-align: left;
+  margin: 0;
+}
+
+.purplecard-icon-down {
+  position: relative;
+  text-align: right;
+  float: right;
+  padding-right: 9px;
+ display: inline;
+ width: 30%;
+}
+
+.redcard {
+  display: block;
+  width: 350px;
+  background-color: #c92020;
+  border-width: 2px;
+  border-color: #c92020;
+  border-style: solid;
+  border-radius: 8px; 
+  color: white;
+  padding-top: 0px;
+}
+
+.redcard-text
+{
+  float: right;
+  position: relative;
+  height: 90px;
+  width: 60%;
+  font-size: 16px;
+  font-family: verdana;
+  margin-right: 3px;
+}
+
+.redcard-icon {
+  float: left;
+  height: 90px;
+  width: 30%;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.redcard-number {
+  float: left;
+  height: 90px;
+  margin-left: 6px;
+  padding: 0px 10px;
+  font-size: 45px;
+}
+
+.redcard-up {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: -23px;
+  height: 100px;
+  background-color: #c92020;
+  text-align: right;
+}
+
+.redcard-down {
+  margin-top: 9px;
+  padding-left: 10px;
+  height: 30px;
+  background-color: white;
+  color:#c92020;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-family: verdana;
+  font-size: 15px;
+}
+
+.redcard-text-down
+{
+  float: left;
+  font-family: verdana;
+  font-size: 15px;
+  display: inline;
+  width: 60%;
+  text-align: left;
+  margin: 0;
+}
+
+.redcard-icon-down {
+  position: relative;
+  text-align: right;
+  float: right;
+  padding-right: 9px;
+ display: inline;
+ width: 30%;
+}
+
+.greencard {
+  display: block;
+  width: 350px;
+  background-color: #26ad36;
+  border-width: 2px;
+  border-color: #26ad36;
+  border-style: solid;
+  border-radius: 8px; 
+  color: white;
+  padding-top: 0px;
+}
+
+.greencard-text
+{
+  float: right;
+  position: relative;
+  height: 90px;
+  width: 60%;
+  font-size: 16px;
+  font-family: verdana;
+  margin-right: 3px;
+}
+
+.greencard-icon {
+  float: left;
+  height: 90px;
+  width: 30%;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.greencard-number {
+  float: left;
+  height: 90px;
+  margin-left: 6px;
+  padding: 0px 10px;
+  font-size: 45px;
+}
+
+.greencard-up {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: -23px;
+  height: 100px;
+  background-color: #26ad36;
+  text-align: right;
+}
+
+.greencard-down {
+  margin-top: 9px;
+  padding-left: 10px;
+  height: 30px;
+  background-color: white;
+  color:#26ad36;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-family: verdana;
+  font-size: 15px;
+}
+
+.greencard-text-down
+{
+  float: left;
+  font-family: verdana;
+  font-size: 15px;
+  display: inline;
+  width: 60%;
+  text-align: left;
+  margin: 0;
+}
+
+.greencard-icon-down {
+  position: relative;
+  text-align: right;
+  float: right;
+  padding-right: 9px;
+ display: inline;
+ width: 30%;
+}
+
+.yellowcard {
+  display: block;
+  width: 350px;
+  background-color: #ff960d;
+  border-width: 2px;
+  border-color: #ff960d;
+  border-style: solid;
+  border-radius: 8px; 
+  color: white;
+  padding-top: 0px;
+}
+
+.yellowcard-text
+{
+  float: right;
+  position: relative;
+  height: 90px;
+  width: 60%;
+  font-size: 16px;
+  font-family: verdana;
+  margin-right: 3px;
+}
+
+.yellowcard-icon {
+  float: left;
+  height: 90px;
+  width: 30%;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.yellowcard-number {
+  float: left;
+  height: 90px;
+  margin-left: 6px;
+  padding: 0px 10px;
+  font-size: 45px;
+}
+
+.yellowcard-up {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: -23px;
+  height: 100px;
+  background-color: #ff960d;
+  text-align: right;
+}
+
+.yellowcard-down {
+  margin-top: 9px;
+  padding-left: 10px;
+  height: 30px;
+  background-color: white;
+  color:#ff960d;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-family: verdana;
+  font-size: 15px;
+}
+
+.yellowcard-text-down
+{
+  float: left;
+  font-family: verdana;
+  font-size: 15px;
+  display: inline;
+  width: 60%;
+  text-align: left;
+  margin: 0;
+}
+
+.yellowcard-icon-down {
+  position: relative;
+  text-align: right;
+  float: right;
+  padding-right: 9px;
+ display: inline;
+ width: 30%;
+}
+
+/*borang_mohon.php*/
+.form-box{
+  font-size: 11pt;
+  font: verdana;
+  color: black;
+  width: 50%;
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+.form-box-span{
+  font-size: 11pt;
+  font: verdana;
+  color: black;
+  width: 90%;
+  margin-bottom: 800px;
+  text-align: left;
+}
+
+input[readonly], textarea[readonly]{
+  background-color: #e8e8e8 ;
+  border-width: 1px;
+  border-collapse: collapse;
+}
+
+.form-left {
+  float: left;
+  width: 48%;
+  /*background-color: #F8F9FA;*/
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+}
+
+
+.form-right {
+  float: right;
+  width: 48%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ddd;
+  /*background-color: #F8F9FA;*/
+}
+
+
+input[type=text], .nama-penumpang{
+  width: 100%;
+  padding: 6px 14px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.form  {
+  padding: 3px 25px 3px 25px;
+  margin: 12px 0;
+}
+
+.tarikh-pergi, .masa-pergi, .masuk-hutan, .ID-left {
+  float: left;
+  padding: 3px 0px 15px 0px;
+  width: 48%;
+}
+.tarikh-balik, .masa-balik, .bil-kend, .IC-right {
+  float: right;
+  padding: 3px 0px 15px 0px;
+  width: 48%;
+}
+
+input[type=date], input[type=time], .num_passenger, .prefer {
+  width: 100%;
+  height: 37px;
+  padding: 5px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=radio] {
+  /*padding: 5px 28px;*/
+  margin: 8px 0;
+}
+
+.btn {
+  width: 17%;
+  padding: 8px;
+  font-size: 14px;
+  font-family: verdana;
+  color: white;
+  background: #0455c7;
+  border-color: rgb(99, 117, 223);
+  border-radius: 8px;
+}
+
+.btn-save {
+  width: 19%;
+  padding: 8px;
+  font-size: 14px;
+  font-family: verdana;
+  color: white;
+  background: #02ad10;
+  border-color: #71c778;
+  border-radius: 8px;
+}
+
+.btn-save:hover {
+  background-color: #047a0e;
+}
+
+.btn-batal {
+  width: 30%;
+  padding: 8px;
+  font-size: 14px;
+  font-family: verdana;
+  color: white;
+  background: #e00808;
+  border-color: rgb(187, 61, 61);
+  border-radius: 8px;
+  
+}
+
+.btn-batal:hover{
+  background-color: #8f0505;
+}
+
+.btn:hover , .btn-search:hover , .btn-cetak:hover, .btn-add:hover{
+   background-color: #06387e;
+}
+
+.button-mohon {
+  text-align: center;
+}
+
+/*semak_permohonan.php*/
+.table-semak {
+  font-size: 15px;
+  font-family: verdana;
+  text-align: center;
+  border-collapse: collapse;
+  width: 95%;
+}
+
+.table-semak td , .table-semak th {
+  border: 1px solid #d1d1d1;
+  padding: 8px;
+
+}
+
+.tbody:nth-child(even){background-color: #f2f2f2;}
+
+.tbody:hover {background-color: #ddd;}
+
+.thead {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: #343A40;
+}
+
+.a-icon:visited {
+  color: #343A40;
+}
+
+.a-icon:hover {
+  color: #343A40;
+}
+
+.a-icon {
+  color: #343A40;
+}
+
+
+/*borang_maklumbalas.php
+*/
+.feedback-id[type=integer] {
+  width: 30%;
+  padding: 6px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.feedback-box{
+  font-size: 11pt;
+  font: verdana;
+  color: black;
+  width: 50%;
+  padding: 3px 0px 3px 0px;
+  border-color: #dbdbdb;
+  border-style: solid;
+  border-width: 1pt;
+}
+
+.feedback-div {
+  width: 95%;
+  margin-top: -25px;
+}
+
+.feedback-label {
+  float: left;
+  width: 80%;
+  text-align: left;
+  padding: 6px 5px 15px 0px;
+  margin: 10px 0px;
+}
+.feedback-select {
+  float: right;
+  width: 20%;
+  text-align: center;
+/*  padding: 3px 0px 15px 0px;
+*/  padding: 7px 35px;
+  margin: 23px 0px;
+  box-sizing: border-box;
+}
+
+.feedback-table, table, tr, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: verdana;
+  font-size: 12px;
+}
+
+.feedback-button {
+  text-align: center;
+  padding: 10px 35px;
+  margin: 10px 0px;
+}
+
+.view-booking-button {
+  text-align: center;
+  margin-top: 30px;  
+}
+
+/* profile.php */
+.select-bhg, .select-kat{
+   float: left;
+  padding: 6px 14px;
+  margin: 8px 0px 26px 0px;
+  width: 100%;
+}
+
+input[type=password] {
+  width: 100%;
+  padding: 6px 14px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+/*ada_kenderaan.php*/
+.table-kend {
+  font-size: 15px;
+  font-family: verdana;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-kend td , .table-kend th {
+  border: 1px solid #d1d1d1;
+  padding: 8px;
+
+}
+
+.tbody-kend:nth-child(even){background-color: #f2f2f2;}
+
+.thead-kend {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: #343A40;
+}
+
+.select-tahun {
+  width: 64%;
+  height: 35px;
+  padding: 3px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.form-box-tahun {
+  font-size: 11pt;
+  font: verdana;
+  color: black;
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: left;
+  float: left;
+}
+
+.form-jumlah {
+  font-size: 11pt;
+  font: verdana;
+  color: black;
+  width: 18%;
+  margin-bottom: 20px;
+  text-align: left;
+  float: right;
+}
+
+.btn-search {
+  width: 14%;
+  padding: 5px;
+  font-size: 14px;
+  font-family: verdana;
+  color: black;
+  background: #b3c7e3;
+  border-color: #ddd;
+  border-radius: 8px;
+}
+
+.btn-cetak {
+  width: 15%;
+  padding: 8px;
+  font-size: 14px;
+  font-family: verdana;
+  color: black;
+  background: #b3c7e3;
+  border-color: #ddd;
+  border-radius: 8px;
+}
+
+.btn-add {
+  padding: 8px;
+  font-size: 14px;
+  font-family: verdana;
+  color: black;
+  background: #b3c7e3;
+  border-color: #ddd;
+  border-radius: 8px;
+}
+
+.form-search {
+  font-size: 11pt;
+  font: verdana;
+  color: black;
+  width: 28%;
+  margin-bottom: 20px;
+  text-align: left;
+  float: left;
+  padding-left: 30px;
+}
+/* VIEW_NEW_VEHICLE.PHP (POPUP FORM TO CHANGE VEHICLE) */
+
+    .bg-modal {
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+      position: fixed;
+      background: rgba(0, 0, 0, 0.6);
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+    .bg-modal-visible {
+      opacity: 1;
+      visibility: visible;
+      transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+    }
+
+    .bg-modal-visible .popup {
+      transform: translateY(0px);
+      -webkit-transform: translateY(0px);
+      transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+    }
+
+    .popup {
+      background: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      width: 800px;
+      margin: 60px auto;
+      transform: translateY(-800px);
+      -webkit-transform: translateY(-800px);
+    }
+
+    .bg-modal-visible .popup {
+      transform: translateY(0px);
+      -webkit-transform: translateY(0px);
+      transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+    }
+
+    .popup:after {
+      display: block;
+      content: "";
+      clear: both;
+    }
+
+    .popup-body {
+      margin: 5px 0px;
+    }
+
+    .popup-header {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 30px;
+    }
+
+    .bg-modal-driver {
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+      position: fixed;
+      background: rgba(0, 0, 0, 0.6);
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+    .bg-modal-visible-driver {
+      opacity: 1;
+      visibility: visible;
+      transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+    }
+
+    .bg-modal-visible-driver .popup-driver {
+      transform: translateY(0px);
+      -webkit-transform: translateY(0px);
+      transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+    }
+
+    .popup-driver {
+      background: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      width: 800px;
+      margin: 60px auto;
+      transform: translateY(-800px);
+      -webkit-transform: translateY(-800px);
+    }
+
+    .bg-modal-visible-driver .popup-driver {
+      transform: translateY(0px);
+      -webkit-transform: translateY(0px);
+      transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+    }
+
+    .popup-driver:after {
+      display: block;
+      content: "";
+      clear: both;
+    }
+
+    .popup-body-driver {
+      margin: 5px 0px;
+    }
+
+    .popup-header-driver {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 30px;
+    }
+
+/*report*/
+
+.report-box {
+  font-size: 11pt;
+  font: verdana;
+  color: black;
+  width: 80%;
+  margin-bottom: 700px;
+  text-align: center;
+}

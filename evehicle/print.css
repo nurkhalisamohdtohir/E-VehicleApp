@@ -1,0 +1,34 @@
+<style>
+tr h3 {
+  font-size: 18px;
+  font-family: default;
+}
+.div-table {
+	width: 850;
+	margin-top: 20px;
+	padding-top: 50px;
+}
+.table-semak {
+  font-size: 15px;
+  text-align: center;
+  border-collapse: collapse;
+  width: 95%;
+}
+
+.table-semak td , .table-semak th {
+  border: 1px solid #d1d1d1;
+  padding: 8px;
+
+}
+
+.tbody:nth-child(even){background-color: #f2f2f2;}
+
+
+.thead {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: #343A40;
+}
+
+</style>

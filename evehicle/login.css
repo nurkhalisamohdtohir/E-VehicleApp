@@ -1,0 +1,105 @@
+* { margin: 0px; padding: 0px; }
+body {
+	font-size: 120%;
+	 background-image: linear-gradient(rgb(72, 72, 173), rgb(163, 175, 228));
+	 background-attachment: fixed;
+	 width: calc(100vw - 34px);
+	 background-image: url("image/it.jpg"); /* The image used */
+	 background-position: center; /* Center the image */
+	 background-repeat: no-repeat; /* Do not repeat the image */
+	 background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.header {
+	width: 20%;
+	margin: 50px auto 0px;
+	color: black;
+	background: white;
+	text-align: center;
+	border: 1px solid gray;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+	font-family: helvetica;
+	font-size: 16px;
+}
+
+
+form, .content {
+	border: 1px solid gray;
+	width: 20%;
+	margin: 0px auto;
+	padding: 20px;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+	font-family: helvetica;
+}
+.input {
+	margin: 20px 0px 10px 0px;
+}
+
+
+.input label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.input input {
+	margin: center;
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.input select{
+	margin: center;
+	height: 42px;
+	width: 99%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.btn {
+	width: 60%;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: helvetica;
+	color: white;
+	background: #233987;
+	border-radius: 5px;
+}
+
+.btn:hover{
+	 background-color: #000261;
+}
+
+.pull-right{
+  float: right;
+  font-size: 14px;
+  color: #233987;
+}
+
+.pull-left{
+  float: left;
+  font-size: 14px;
+  color: #233987;
+}
+
+a {
+	color: black;
+	text-decoration: unset;
+	font-size: 14px;
+}
+
+a:hover {
+	text-decoration: underline;
+	font-size: 14px;
+}
