@@ -11,8 +11,7 @@
 <link rel="stylesheet" href="login.css">
 <head>
 	<title>E-Vehicle</title>
-	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
 <center>
