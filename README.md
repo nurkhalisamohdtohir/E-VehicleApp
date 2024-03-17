@@ -24,7 +24,13 @@ E-Vehicle is designed to streamline various processes within the company, enhanc
   - View details like category, plate number, service date, service mileage, next service date, next service mileage.
   - Receive automatic reminders for vehicle service appointments based on mileage.
 
-### 2. Staffs
+### 2. Head of Divisions (HOD)
+
+- **Booking Management:**
+  - View booking details.
+  - Update booking status, approve or disapprove.
+
+### 3. Staffs
 
 - **Booking Application:**
   - Add, modify or delete vehicle booking application.
@@ -35,7 +41,7 @@ E-Vehicle is designed to streamline various processes within the company, enhanc
 - **Profile Management:**
   - View or update profile.
  
-### 3. Drivers
+### 4. Drivers
 
 - **Trip Management:**
   - View trip details like trip number, date, destination.
@@ -43,4 +49,4 @@ E-Vehicle is designed to streamline various processes within the company, enhanc
 
 ## User Interface
 
-[User Interface Vehicle Booking and Maintenance Organizer (PDF)](User%20Interface%20Vehicle%20Booking%20and%20Maintenance%20Organizer.pdf)
+[User Interface Vehicle Booking and Maintenance Organizer (PDF)](Evehicle%20-%20Project%20Description.pdf)
