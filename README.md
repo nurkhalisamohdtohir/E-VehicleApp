@@ -1,4 +1,4 @@
-# Vehicle Booking and Maintenance System (E-Vehicle)
+# Vehicle Booking and Maintenance Organizer (E-Vehicle)
 
 E-Vehicle is designed to streamline various processes within the company, enhancing efficiency and automating tasks related to vehicle booking and maintenance. The system includes several modules, each serving a specific purpose, tailored to different user roles.
 
